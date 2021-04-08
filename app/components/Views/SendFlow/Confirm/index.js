@@ -319,8 +319,6 @@ class Confirm extends PureComponent {
 		transactionTotalAmountFiat: undefined,
 		errorMessage: undefined,
 		fromAccountModalVisible: false,
-		paymentChannelBalance: this.props.selectedAsset.assetBalance,
-		paymentChannelReady: false,
 		warningModalVisible: false,
 		mode: REVIEW,
 		over: false
