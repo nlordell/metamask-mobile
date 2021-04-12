@@ -123,7 +123,7 @@ class Engine {
 				),
 				new AccountTrackerController({
 					onPreferencesStateChange: listener => preferencesController.subscribe(listener),
-					getIdentities: () => preferencesController.identities
+					getIdentities: () => preferencesController.state.identities
 				}),
 				new AddressBookController(),
 				assetsContractController,
